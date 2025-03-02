@@ -1,0 +1,12 @@
+[package]
+name = "rustample"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+twsfw-rs = { git = "https://github.com/Tondorf/twsfw-rs.git", branch = "main" }
+#twsfw-rs = { path = "../../../twsfw-rs" }
+wasm-bindgen = "0.2"
